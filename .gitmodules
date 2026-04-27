@@ -1,3 +1,6 @@
 [submodule "matrix_keyboard/lib/lcd_lib"]
 	path = matrix_keyboard/lib/lcd_lib
 	url = https://github.com/ml3rc/HD44780-Driver-AT2560.git
+[submodule "matrix_keyboard/lib/keyboard_lib"]
+	path = matrix_keyboard/lib/keyboard_lib
+	url = https://github.com/ml3rc/4x4-Matrix-Keyboard-Driver.git

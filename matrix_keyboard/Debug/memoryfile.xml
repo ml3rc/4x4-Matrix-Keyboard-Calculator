@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="matrix_keyboard.elf">                 
+    <memory name="program">              
+      <units>bytes</units>                 
+      <length>262144</length>                 
+      <used>9806</used>                     
+      <free>252338</free>                     
+    </memory>                              
+    <memory name="data">                 
+      <units>bytes</units>                 
+      <length>8192</length>                 
+      <used>6</used>                     
+      <free>8186</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 
