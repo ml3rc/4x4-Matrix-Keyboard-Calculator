@@ -152,7 +152,7 @@ Advantages of this approach:
 * Predictable input handling
 * Easy to extend with new operations
 
-The FSM manages four main states: CLEAR, OPERAND_1, OPERAND_2, and OPERATOR. The OPERATOR state enables chaining calculations by using the previous result as the first operand for the next operation.
+The FSM manages four main states: `CLEAR`, `OPERAND_1`, `OPERAND_2`, and `OPERATOR`. The `OPERATOR` state enables chaining calculations by using the previous result as the first operand for the next operation.
 
 ## State Event Diagram
 
@@ -223,7 +223,7 @@ An FSM was chosen because it provides:
 * predictable input handling
 * simple expansion for future features
 
-The four states (CLEAR, OPERAND_1, OPERAND_2, OPERATOR) provide clean separation between different phases of calculator operation, with the OPERATOR state enabling calculation chaining.
+The four states (`CLEAR`, `OPERAND_1`, `OPERAND_2`, `OPERATOR`) provide clean separation between different phases of calculator operation, with the `OPERATOR` state enabling calculation chaining. The states `WAIT` and `CALCULATE`, that were in the original task were not used, because they are either temporary states with no delay's or exit conditions like the `CALCULATE` state or were indirectly replaced like the `WAIT` state which is now in the `OPERATOR` state.
 
 ---
 
@@ -259,7 +259,7 @@ The ability to chain calculations (using previous result) provides:
 
 ## Polling Keyboard
 
-The design choice, that no interrupts were used, was because of simplicity of the project
+The design choice, that no interrupts were used, was because of simplicity of the project.
 
 ---
 
