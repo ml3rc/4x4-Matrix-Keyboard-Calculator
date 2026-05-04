@@ -17,7 +17,7 @@
 #include "lib/lcd_lib/HD44780.h"
 
 /* Define */
-#define LOOP_DELAY_MS 1
+#define LOOP_DELAY_MS 10
 
 /* Enumerations */
 enum State {
